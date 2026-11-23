@@ -1,0 +1,5823 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2b26b21a-77dd-49b2-88c3-bff8f4fc20ee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "3-794618-8:3-794618-8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "3-794618-8"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "37946188"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "8.67"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "571-3-794618-8"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3-794618-8"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "3-794618-8_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "verify pinout of connector before order.\n"
+		(exclude_from_sim no)
+		(at 223.52 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b0612e2-b939-4746-a77b-d186eca8bd80")
+	)
+	(text "4 fans = 6A@20*C Temp rise = 1.16mm = 2mm chosen"
+		(exclude_from_sim no)
+		(at 56.134 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7367a36b-bcee-436d-9d05-0d08a39b59b4")
+	)
+	(text "individual Fan tracewidth = 2A@20*C Temp rise = 10mil = .25mm = .75 mm chosen"
+		(exclude_from_sim no)
+		(at 56.388 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9384cf9f-3ff5-42a9-95a2-c72ec4b054a8")
+	)
+	(text "Alternative 4: \"Intel Standard\" x 2"
+		(exclude_from_sim no)
+		(at 69.85 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93b6ae48-0f5e-4209-8d2c-966f82d8bc1d")
+	)
+	(text "verify pinout of connector before order.\n"
+		(exclude_from_sim no)
+		(at 156.21 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb65b1ec-ff21-40ed-b5d3-79bbcd0934d0")
+	)
+	(text "For External (Top/Bottom) Layers\n"
+		(exclude_from_sim no)
+		(at 55.372 176.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd139e67-d698-4391-b3bf-6db2ab52cbb3")
+	)
+	(text "inc 48V = 20A@20*C Temp rise = ~6mm = 6.5mm chosen"
+		(exclude_from_sim no)
+		(at 57.15 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7121047-19cb-4d09-96b8-27e9df39a383")
+	)
+	(text "verify pinout of connector before order.\n"
+		(exclude_from_sim no)
+		(at 154.94 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eed7a122-9f74-48c5-998c-0afad6b1c649")
+	)
+	(text "verify pinout of connector before order.\n"
+		(exclude_from_sim no)
+		(at 69.85 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4eb8b4a-d473-489a-a0f5-ac4b1a07597d")
+	)
+	(text "verify pinout of connector before order.\n"
+		(exclude_from_sim no)
+		(at 222.25 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f83ba4c8-77fa-4dd2-8f4c-5973f2fa3f16")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039ff51b-3da7-4725-93a4-3b2cef847439")
+	)
+	(wire
+		(pts
+			(xy 62.23 44.45) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066a46e4-c278-4b70-889b-896befd8c7af")
+	)
+	(wire
+		(pts
+			(xy 62.23 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b57cc6-0085-48c9-8baf-d621941d8c77")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0bf269-465f-4310-a4b7-fa25ef63a840")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f970d70-a689-4f95-a4ce-366b80476dee")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cea34a-96f3-4a51-80f6-3107006196be")
+	)
+	(wire
+		(pts
+			(xy 219.71 44.45) (xy 224.79 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170517a1-4c73-4084-a8c9-745b569d7ef6")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cda62b-3eed-4ac3-8ba5-2b099eaeced8")
+	)
+	(wire
+		(pts
+			(xy 210.82 80.01) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d44ab04-6045-47f6-acd6-ec6365e14bcb")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9c3100-9b8c-4299-9bf5-41f738501ffd")
+	)
+	(wire
+		(pts
+			(xy 241.3 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24290810-ab24-4f41-b5fc-bea53a75c2b9")
+	)
+	(wire
+		(pts
+			(xy 241.3 33.02) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c730b5-9fee-419c-983d-fe366810f880")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb6b880-8767-4c29-beb5-65ac2663b9ae")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3043e548-c2a8-4ba8-9086-58f8fa744738")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323d3464-1f95-433e-9c30-cd149905ead8")
+	)
+	(wire
+		(pts
+			(xy 167.64 82.55) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40eae79e-888d-4c78-8fd0-ecd00851087f")
+	)
+	(wire
+		(pts
+			(xy 210.82 33.02) (xy 215.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42abf1e3-8cec-418e-94de-91ac92ab4b47")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46618c55-f50d-47f6-911d-f153ce216e80")
+	)
+	(wire
+		(pts
+			(xy 219.71 52.07) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47953e9e-7804-4f86-b8f5-5af95a212678")
+	)
+	(wire
+		(pts
+			(xy 62.23 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50581a84-11be-4196-9796-10149eff4ba9")
+	)
+	(wire
+		(pts
+			(xy 142.24 30.48) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510c09f4-d93b-4d30-a249-c6c2fdef091e")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517840a4-558c-4fae-85c9-54276ef6ef24")
+	)
+	(wire
+		(pts
+			(xy 62.23 102.87) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539fbce3-aa4d-499a-ab89-2dff4308c6c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c418e3-38a0-4c74-b0cb-389ba13c9d01")
+	)
+	(wire
+		(pts
+			(xy 142.24 27.94) (xy 147.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc1d516-c454-4690-9f6e-63cf04864f2f")
+	)
+	(wire
+		(pts
+			(xy 210.82 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eaa2dc-f63b-4815-b91c-a644ae075d45")
+	)
+	(wire
+		(pts
+			(xy 62.23 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f0d51d-687c-492b-8010-9033ecc4c8cd")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 62.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a3a6a6-cd7a-4551-b29a-86b9fcff7d72")
+	)
+	(wire
+		(pts
+			(xy 62.23 121.92) (xy 67.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694c8d22-cddf-486f-ae16-92266e002b50")
+	)
+	(wire
+		(pts
+			(xy 219.71 63.5) (xy 224.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7519a8-3f45-4757-be35-2e8647ae0d5d")
+	)
+	(wire
+		(pts
+			(xy 236.22 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff398a8-ace6-44c0-ad37-8af186e5031a")
+	)
+	(wire
+		(pts
+			(xy 241.3 85.09) (xy 236.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724a7da3-4688-4460-961b-cdfce5c7b62f")
+	)
+	(wire
+		(pts
+			(xy 224.79 113.03) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73024508-2f48-4d2e-8847-7c94b0b405c3")
+	)
+	(wire
+		(pts
+			(xy 62.23 60.96) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c58e85-28e3-4ff7-8171-f4335ef7ce71")
+	)
+	(wire
+		(pts
+			(xy 167.64 27.94) (xy 172.72 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb895ea-daff-4e9d-bd4f-a52cedc9136d")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7e9615-af1b-4ecf-b323-db3fba73f60d")
+	)
+	(wire
+		(pts
+			(xy 62.23 116.84) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f285cc3-86b2-4dc0-86c8-4494d9635595")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813c89b3-2b15-406c-a699-bf7509c4afba")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 152.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8755036f-2348-4e3b-b40a-5ceda96dfc56")
+	)
+	(wire
+		(pts
+			(xy 219.71 58.42) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8939fbdc-0d1f-477d-85f5-ffe18189e4d9")
+	)
+	(wire
+		(pts
+			(xy 62.23 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd1b8d7-62e1-4e92-9d10-ca4a09f37e9c")
+	)
+	(wire
+		(pts
+			(xy 241.3 27.94) (xy 236.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f14f61-e8fa-41c9-aae2-822e6dc4613c")
+	)
+	(wire
+		(pts
+			(xy 241.3 35.56) (xy 236.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93226c6a-5d3e-4bdb-b7bb-b12f68666c72")
+	)
+	(wire
+		(pts
+			(xy 210.82 27.94) (xy 215.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c02aa8-1141-487a-ba27-b7e95d8b7af2")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97bdaef9-098d-49bb-859e-2d04ea436015")
+	)
+	(wire
+		(pts
+			(xy 219.71 118.11) (xy 224.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c26d07e-d7db-40a4-aa3f-4b69c427b934")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d894619-5624-4c3b-bce4-cb6a1b060f34")
+	)
+	(wire
+		(pts
+			(xy 142.24 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1285165-0d2d-4792-8085-2e21ba7e2e4a")
+	)
+	(wire
+		(pts
+			(xy 219.71 104.14) (xy 224.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b3a843-adb0-4ed6-8ed6-5f855c1e8b5e")
+	)
+	(wire
+		(pts
+			(xy 219.71 101.6) (xy 224.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41692b6-498a-4473-bf99-929d6ed0514b")
+	)
+	(wire
+		(pts
+			(xy 219.71 110.49) (xy 224.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43db11f-de5f-4aa2-aa5c-c28d49ab7440")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97f4b6b-05e7-4fce-8032-bd1a22c900bc")
+	)
+	(wire
+		(pts
+			(xy 236.22 30.48) (xy 241.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab39c25b-3051-4b13-8000-e96b16376085")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc3b8a9-a8b7-4cd0-af54-5c97068be7ca")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02e468b-bea5-434f-bfe3-559c173d3f63")
+	)
+	(wire
+		(pts
+			(xy 172.72 33.02) (xy 167.64 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2edeeb7-97c4-4e23-80fb-40f6a6c325b5")
+	)
+	(wire
+		(pts
+			(xy 62.23 124.46) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b313c8f1-39d7-4bb7-8377-1a135f3b03e3")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c86770-df49-4bfc-9bc6-80a55f6bc88b")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 215.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b533ddbe-c5d8-4f45-a3fd-367e28f88c55")
+	)
+	(wire
+		(pts
+			(xy 219.71 46.99) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba81678e-236a-4ec6-8f7d-1ebdba3acfe3")
+	)
+	(wire
+		(pts
+			(xy 219.71 115.57) (xy 224.79 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9a8958-9a2f-4d68-a741-6e7bf94366b0")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 224.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3abfed-9105-4cd8-9d84-892b24276f10")
+	)
+	(wire
+		(pts
+			(xy 142.24 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17bfbe1-6dd6-4e52-862d-c09a04272333")
+	)
+	(wire
+		(pts
+			(xy 219.71 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fc5166-8ff9-433c-9962-9b4bc95d0adc")
+	)
+	(wire
+		(pts
+			(xy 172.72 30.48) (xy 167.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c807ee11-4e03-4b19-8879-232830fd7a6b")
+	)
+	(wire
+		(pts
+			(xy 147.32 44.45) (xy 152.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0b7c23-1d68-4d1a-b298-0e3bdf6253fa")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16a1a0c-4431-45d6-b2c0-d7295d35c559")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cdd255-3eb4-42cc-bb36-238e287ef4cf")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50d2318-740a-44b7-812c-a925eb8d5085")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2916d3-33a2-4eef-8406-a1d8fd460bc7")
+	)
+	(wire
+		(pts
+			(xy 67.31 119.38) (xy 62.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1486e1-82b3-49be-9bdd-03d758c12a60")
+	)
+	(wire
+		(pts
+			(xy 62.23 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e161a864-8d79-47be-a658-066d84a97a6d")
+	)
+	(wire
+		(pts
+			(xy 210.82 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e728321c-1b96-434f-9c32-d6ba157a01be")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f151804e-f40c-4d37-9a82-4e9f2bc6cf71")
+	)
+	(wire
+		(pts
+			(xy 172.72 25.4) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47b0160-c2db-4c48-a6a3-15d24341bfaa")
+	)
+	(wire
+		(pts
+			(xy 210.82 30.48) (xy 215.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51f2ef8-3618-4d28-b1fd-beb047fa9175")
+	)
+	(wire
+		(pts
+			(xy 241.3 80.01) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98a4612-870c-4db2-80b8-87090f1661fd")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 224.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faac1252-016e-4e6b-8154-ceca270e1278")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed6d5bd-2041-4e2e-9179-3198e34159dd")
+	)
+	(wire
+		(pts
+			(xy 224.79 60.96) (xy 219.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff37c2fe-da8f-4736-a5ac-9f4f4fbb89ee")
+	)
+	(global_label "fan4_PWM"
+		(shape input)
+		(at 62.23 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02e074f5-6ca5-4e3c-9d2a-521698b9378e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8712 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan8_RTN"
+		(shape input)
+		(at 147.32 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0390f2d4-d54a-43eb-9ca2-f51da2640bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5659 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_48V"
+		(shape input)
+		(at 219.71 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03af6928-f635-4132-a5e2-228d11d1973f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0164 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_RTN"
+		(shape input)
+		(at 62.23 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04f8791f-74fe-4169-ba45-31b223c981de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4759 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_PWM"
+		(shape input)
+		(at 142.24 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06e245dd-0d13-4b52-8cf3-666ab471a540")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8812 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_PWM"
+		(shape input)
+		(at 219.71 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08bd3986-6ae9-44c2-aed1-8a81ec5aefee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3512 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_RTN"
+		(shape input)
+		(at 219.71 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "097e7d22-1d3e-4745-aa78-e0c08f8d7032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.9559 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_48V"
+		(shape input)
+		(at 62.23 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a047640-9117-4498-9235-2a54d5a7d9ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5364 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_RTN"
+		(shape input)
+		(at 210.82 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1023be4f-ff90-48a8-b40c-a1a3e9c4572b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0659 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan6_TACH"
+		(shape input)
+		(at 147.32 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "111b1a93-ce59-4a07-a4e3-e9cb723049a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4773 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan4_RTN"
+		(shape input)
+		(at 80.01 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15d7a8a2-a3a0-4603-b3d2-aa9a4ccaf5e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7641 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan9_RTN"
+		(shape input)
+		(at 219.71 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202506fb-3830-4ec6-83b4-cb4bd0495197")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.9559 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan6_RTN"
+		(shape input)
+		(at 147.32 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20e852c9-6fbd-4e5d-b1ff-0342334bbd50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5659 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan4_RTN"
+		(shape input)
+		(at 62.23 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20fd300b-ba86-463d-af2b-0b3602626e8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4759 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_PWM"
+		(shape input)
+		(at 142.24 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26f7e028-5b54-43dc-b6c5-dac4bd12e0db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8812 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_RTN"
+		(shape input)
+		(at 142.24 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27fa5c31-451f-4994-9faf-a3578b5d2785")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.4859 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_TACH"
+		(shape input)
+		(at 241.3 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "324f2004-2865-48d2-85de-2d09815d88a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.1427 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan8_TACH"
+		(shape input)
+		(at 147.32 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32d9fda9-091c-4ad3-9492-7a3bb719b2ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4773 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_RTN"
+		(shape input)
+		(at 210.82 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c0a503d-5e25-49ff-82d4-39c50cdb1fc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0659 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_48V"
+		(shape input)
+		(at 80.01 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d399a13-04ce-4410-b653-aa9802ca3e88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7036 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan11_48V"
+		(shape input)
+		(at 219.71 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "411f080b-3707-4979-8d92-d37fdf674320")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0164 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_PWM"
+		(shape input)
+		(at 59.69 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41d4ce38-198f-4372-9c4d-854aa6d207bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3312 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_TACH"
+		(shape input)
+		(at 62.23 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42cca945-fbc6-4f39-ac3c-969f7f8b76ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3873 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan8_TACH"
+		(shape input)
+		(at 172.72 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445da34b-abdd-4d5f-9dea-fd35e5786760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.5627 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan3_TACH"
+		(shape input)
+		(at 59.69 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d17bd3-6483-4074-a8ee-34938c0ecb9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.8473 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_48V"
+		(shape input)
+		(at 219.71 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46dd20b1-7cf4-459a-8bab-a1f720dc47fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0164 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_RTN"
+		(shape input)
+		(at 147.32 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47de3dd0-5338-44de-86a1-880e1fbe6aa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5659 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_RTN"
+		(shape input)
+		(at 219.71 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4aa0591b-3238-47b6-89f1-b4eb8e97f4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.9559 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan3_48V"
+		(shape input)
+		(at 62.23 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4df6fbf9-ecb9-420c-a36c-1463348c085b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5364 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_48V"
+		(shape input)
+		(at 142.24 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4eea21a3-e19a-4338-be3d-55187a490d00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.5464 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan3_RTN"
+		(shape input)
+		(at 59.69 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa3bf29-e587-40c1-8101-f25ab79fbb90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9359 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_TACH"
+		(shape input)
+		(at 219.71 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50de2d4b-65f9-4550-a279-c087135077bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8673 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_TACH"
+		(shape input)
+		(at 80.01 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51e2add0-b311-4fce-96a7-75aa6b40bf8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8527 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan7_TACH"
+		(shape input)
+		(at 147.32 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52813a6d-eb2e-4497-829f-7d6d459ed4d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4773 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_PWM"
+		(shape input)
+		(at 219.71 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53d548d1-45e5-4237-8ed9-240970e6752e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3512 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_RTN"
+		(shape input)
+		(at 142.24 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f27f43d-e7f0-4ce4-97a3-b642188c2422")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.4859 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan6_48V"
+		(shape input)
+		(at 172.72 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6711bff7-ab9d-450c-be30-bd3c4b3f2670")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4136 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan8_48V"
+		(shape input)
+		(at 147.32 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6832d050-1aab-4fbb-89fe-80ae3e071e80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6264 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_PWM"
+		(shape input)
+		(at 241.3 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68773e48-dc1c-43dc-9194-e48a6f572e1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.6588 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan1_PWM"
+		(shape input)
+		(at 62.23 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69c2dac1-189d-4094-b21b-b49aa0aa112a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8712 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_TACH"
+		(shape input)
+		(at 241.3 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5afddc-3b81-42ce-9964-6506bee1e319")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.1427 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan2_PWM"
+		(shape input)
+		(at 80.01 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6da39b95-b068-4e04-8388-4160903dda6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.3688 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan4_PWM"
+		(shape input)
+		(at 80.01 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e104cfa-a0d7-4755-9564-35b54917c698")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.3688 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan8_PWM"
+		(shape input)
+		(at 172.72 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e574bf3-54fa-4c55-8968-ad87df474624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.0788 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan3_TACH"
+		(shape input)
+		(at 62.23 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70996271-e78c-4f13-86ee-39789d209e9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3873 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_48V"
+		(shape input)
+		(at 142.24 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "759bda43-19a0-4e46-98f6-21d23cf6cdc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.5464 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan3_PWM"
+		(shape input)
+		(at 62.23 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "776c0121-2e4c-40d9-b7eb-a704674210b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8712 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_48V"
+		(shape input)
+		(at 147.32 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "782d2166-ae80-4d69-b856-179ad007df3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6264 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan3_48V"
+		(shape input)
+		(at 59.69 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a85ef16-3d82-4cd8-a528-3206ceb98c70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9964 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_TACH"
+		(shape input)
+		(at 142.24 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e0a166c-f476-4199-908f-513ec1bbed65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.3973 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_PWM"
+		(shape input)
+		(at 210.82 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "817a59b1-4940-4f0b-8bfb-feabbf90175e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4612 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan6_PWM"
+		(shape input)
+		(at 172.72 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85dc164d-6d79-4e07-bd6b-2703fdb89910")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.0788 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan12_48V"
+		(shape input)
+		(at 241.3 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a98cc57-0b96-462a-ab71-f6e277b85f89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9936 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan5_TACH"
+		(shape input)
+		(at 147.32 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eb58f75-692d-4766-899a-06da10e7bb62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4773 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan6_48V"
+		(shape input)
+		(at 147.32 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93c97f1e-f2ed-4d86-9f06-dd624780f14a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6264 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan4_48V"
+		(shape input)
+		(at 80.01 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "997bc874-f157-4f52-a27f-b50f1d330b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7036 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan2_RTN"
+		(shape input)
+		(at 80.01 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99e7e52f-8273-4bd7-a4ab-f19f5cfb170f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7641 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan6_TACH"
+		(shape input)
+		(at 172.72 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b5db8e3-057d-40ca-a6e6-36322bee5521")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.5627 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan3_RTN"
+		(shape input)
+		(at 62.23 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b654f7d-6598-4e4e-b22f-b834a6abafaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4759 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_PWM"
+		(shape input)
+		(at 219.71 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e3b0934-3128-4cc7-b3c0-b0d69163759e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3512 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_RTN"
+		(shape input)
+		(at 62.23 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a38c9a4e-e629-4c02-8038-f54f48fc75b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4759 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_TACH"
+		(shape input)
+		(at 59.69 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3e1c074-4b5e-4f4a-a2fa-6ae856487701")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.8473 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_RTN"
+		(shape input)
+		(at 241.3 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4096e7f-0d85-453e-b411-9edf9e4cbf52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0541 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan10_48V"
+		(shape input)
+		(at 241.3 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa40e803-57b6-4367-a047-1b7b184aea63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9936 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan7_PWM"
+		(shape input)
+		(at 147.32 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa8c6b8d-f67e-4f82-b858-5a5959c893a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9612 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_RTN"
+		(shape input)
+		(at 219.71 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abfd87cf-a9be-4fb8-83e0-7a872b740fc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.9559 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_TACH"
+		(shape input)
+		(at 219.71 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac5a371d-60ed-49c1-8aff-da274851305f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8673 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_RTN"
+		(shape input)
+		(at 147.32 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2835487-1ccf-43fe-bacd-80374b635c8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5659 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_48V"
+		(shape input)
+		(at 219.71 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3cca33c-c978-4815-9d29-835d37ee9ca9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.0164 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_PWM"
+		(shape input)
+		(at 210.82 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b793ac26-640a-4e78-b40f-c27f8d2581a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4612 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan12_PWM"
+		(shape input)
+		(at 241.3 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8c3ce2a-1f98-4678-a2a2-bbedb2a61b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.6588 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan8_RTN"
+		(shape input)
+		(at 172.72 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9608d4b-e1e7-4cb2-ad24-1715177fdb92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4741 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan1_RTN"
+		(shape input)
+		(at 59.69 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bac1338d-766a-48b8-a1ab-4b821cdc97a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9359 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_48V"
+		(shape input)
+		(at 210.82 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c22e1488-b969-4a0c-b8dc-b4125ad4458a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.1264 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan8_48V"
+		(shape input)
+		(at 172.72 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6ef9226-7b36-4a96-a963-801acc490340")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4136 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan6_PWM"
+		(shape input)
+		(at 147.32 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c71ffd3a-aa56-4e3e-acde-7dfdccf2a556")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9612 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_48V"
+		(shape input)
+		(at 147.32 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c83d928b-ed3f-4e7d-998c-4bdcac61b877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6264 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan2_PWM"
+		(shape input)
+		(at 62.23 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c84ef635-1938-4ca1-9289-71b6d42d7699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8712 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_TACH"
+		(shape input)
+		(at 62.23 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c85434b6-1a1e-43e9-82e9-6f9c0a5af7a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3873 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan8_PWM"
+		(shape input)
+		(at 147.32 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cae1fda0-487b-4121-8b43-8b84bf92cf15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9612 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan7_TACH"
+		(shape input)
+		(at 142.24 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce1c2cd7-990e-426c-88b9-b950ff0b1c96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.3973 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_48V"
+		(shape input)
+		(at 59.69 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce8f883f-c61e-45c7-a545-00d77cc27318")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9964 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_TACH"
+		(shape input)
+		(at 210.82 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf193ca9-d8d0-4146-86b9-76e1e9a11075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.9773 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan11_TACH"
+		(shape input)
+		(at 210.82 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d02f2fea-9c5a-4f05-af2f-263b8f12e42f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.9773 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan5_PWM"
+		(shape input)
+		(at 147.32 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2c2983b-4b3d-4867-80ca-23b08e14220d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9612 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan10_RTN"
+		(shape input)
+		(at 241.3 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4ee427d-639b-42bd-bad2-5f57e097d3ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0541 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan6_RTN"
+		(shape input)
+		(at 172.72 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6634c5f-b26e-490b-815c-0d27a5bac36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4741 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan12_TACH"
+		(shape input)
+		(at 219.71 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6f6f94a-9a29-4e8a-bcf4-d5c05c5e057a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8673 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_TACH"
+		(shape input)
+		(at 219.71 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db2db97d-1faf-4ce9-9cdb-725b9937995a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8673 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_PWM"
+		(shape input)
+		(at 219.71 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbc4a60e-3487-402d-b5ee-6e24a351674b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3512 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan1_48V"
+		(shape input)
+		(at 62.23 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de29915b-bcea-40a0-8cc3-26c2a7009e63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5364 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan4_TACH"
+		(shape input)
+		(at 80.01 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e50f43d2-6e79-4803-9bc5-758f59905e81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8527 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "fan4_TACH"
+		(shape input)
+		(at 62.23 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8925068-e1ee-486f-a82c-bf1af30c9dc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3873 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan3_PWM"
+		(shape input)
+		(at 59.69 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eae70688-fe31-4b38-8d4b-aeea6c6d22b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3312 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan4_48V"
+		(shape input)
+		(at 62.23 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3b98752-adcf-4d25-b1e3-2d9d691e75ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5364 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "fan9_48V"
+		(shape input)
+		(at 210.82 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5e38e3d-63c8-4899-9d4c-302d78cd4ab5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.1264 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 157.48 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d9bfbc3-40fd-43ca-9d14-970c6b420458")
+		(property "Reference" "J16"
+			(at 160.02 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 160.02 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bda03969-6194-4601-9359-553d689a4eb5")
+		)
+		(pin "4"
+			(uuid "4d45287b-4249-47ba-9568-533cde2604d3")
+		)
+		(pin "1"
+			(uuid "118931f5-ba42-479e-9a53-68033522b260")
+		)
+		(pin "2"
+			(uuid "d6951ede-4e17-4a12-888c-ff34b7446981")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 72.39 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fbd36ec-ca3e-4d53-b619-57444beb3026")
+		(property "Reference" "J11"
+			(at 74.93 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 74.93 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5b9d7e29-7446-445d-a54d-41068cffad7a")
+		)
+		(pin "4"
+			(uuid "810c743e-2f91-499d-aa04-7e745b27e9a2")
+		)
+		(pin "1"
+			(uuid "33ca1f8d-73df-4395-acfd-ac1e67104c25")
+		)
+		(pin "2"
+			(uuid "cca79d06-3115-444c-b455-da4ce421b5d8")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 72.39 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35da6bd5-b3a7-4a5c-8471-b7316f264afb")
+		(property "Reference" "J9"
+			(at 74.93 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 74.93 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b8a5f8b0-5d20-405d-8d65-3004ab9ad8e3")
+		)
+		(pin "4"
+			(uuid "5ee1ff74-8018-4c29-9e92-fb0b0ebfda60")
+		)
+		(pin "1"
+			(uuid "997a82c1-7716-4acf-8d5d-fb4acb25cab7")
+		)
+		(pin "2"
+			(uuid "de204e6e-1e9a-41a2-91d1-be6e4b11dcd8")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 59.69 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cc7d663-6412-49e3-8ded-67b9a41fda4c")
+		(property "Reference" "J7"
+			(at 69.85 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 69.85 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 76.2 177.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 76.2 277.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 59.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 76.2 477.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 76.2 577.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 76.2 677.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 76.2 777.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 76.2 877.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "20881358-8332-45e2-865e-7c9650a896b3")
+		)
+		(pin "7"
+			(uuid "32ad01e9-efe5-486f-b9ef-38626cd56bc0")
+		)
+		(pin "6"
+			(uuid "836f50d2-1848-4d8a-8be5-266429dfb458")
+		)
+		(pin "5"
+			(uuid "186c2262-bcdc-419e-b73b-694f3f310aa9")
+		)
+		(pin "4"
+			(uuid "d4f3dc4d-ea11-4e17-b41d-fa6e5c60dbc4")
+		)
+		(pin "3"
+			(uuid "2de5e281-0cc5-4b5d-b4a2-a28bfaf80354")
+		)
+		(pin "2"
+			(uuid "416e7b8f-baa3-4b4c-9935-da88f5691c22")
+		)
+		(pin "1"
+			(uuid "e4ccd964-28e7-4aa6-922c-f789d7100606")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cdb9900-9c60-42c1-9c44-ff96944c27c9")
+		(property "Reference" "J17"
+			(at 160.02 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 160.02 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b6b9006b-479f-4649-af93-d552f2dd42a1")
+		)
+		(pin "4"
+			(uuid "f1981388-2541-490f-874c-fbf48ed6efd5")
+		)
+		(pin "1"
+			(uuid "c49fdd75-1207-48d0-8566-ce968be9a168")
+		)
+		(pin "2"
+			(uuid "cb19b5ae-ee08-41a3-8b84-18684d94db7f")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 72.39 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50b881ce-9b92-4085-97f0-85eff4dd121f")
+		(property "Reference" "J10"
+			(at 74.93 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 74.93 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c04f8af8-0e1b-43d0-8a81-63e46ed0c5db")
+		)
+		(pin "4"
+			(uuid "35d87697-73de-4f2d-87d9-8a527f26437e")
+		)
+		(pin "1"
+			(uuid "f1400083-83e6-47a0-b1fa-280bf377530d")
+		)
+		(pin "2"
+			(uuid "04f879d4-6321-4771-b977-75cc69c4143c")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 157.48 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522a1777-b238-4d37-8434-78f7c19718fa")
+		(property "Reference" "J14"
+			(at 160.02 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 160.02 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5078e192-44cf-48c0-8b13-66a24439c331")
+		)
+		(pin "4"
+			(uuid "1703cd3e-e0a9-4222-a52b-fef1fd05038e")
+		)
+		(pin "1"
+			(uuid "718470bf-3409-412f-b789-023566f651e3")
+		)
+		(pin "2"
+			(uuid "1647dd2c-a11e-4923-8059-c2f797cd8c24")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 229.87 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67f5bb4c-a08f-45a7-862d-a8a65cc314ad")
+		(property "Reference" "J21"
+			(at 232.41 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 232.41 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 229.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d7d317d4-8b83-468e-9eba-f3cffd1cc0b4")
+		)
+		(pin "4"
+			(uuid "a6066701-54e3-40ee-8704-895f180190e1")
+		)
+		(pin "1"
+			(uuid "49c5201e-563f-47ff-a6b2-9a2c18237ce5")
+		)
+		(pin "2"
+			(uuid "d5acf821-21d7-4992-96ca-7f715f70f90a")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 229.87 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc5b3af-8ec2-4d45-aa9d-c315afe15bde")
+		(property "Reference" "J22"
+			(at 232.41 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 232.41 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 229.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bf5bffd8-1a60-4731-8d00-d47866f77a7f")
+		)
+		(pin "4"
+			(uuid "cc75791a-8d25-4355-a58e-3b1d86089c9e")
+		)
+		(pin "1"
+			(uuid "16152cd4-70b9-425f-82df-06b3543d8a35")
+		)
+		(pin "2"
+			(uuid "0c55f637-2723-4d0e-a3ca-033f059bf464")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 72.39 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f484fe3-8e6f-4f83-89f8-0ace9970d314")
+		(property "Reference" "J8"
+			(at 74.93 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 74.93 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6924e1c4-7fc3-4610-9603-c1a0fc03d8ec")
+		)
+		(pin "4"
+			(uuid "fe78cc65-16ab-486a-9663-6c0d18187cf4")
+		)
+		(pin "1"
+			(uuid "b82dcaa4-2adc-407f-90d1-b00d672cfc7a")
+		)
+		(pin "2"
+			(uuid "e1b61689-6fa0-41b5-88fd-3cfacff509cc")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 147.32 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ccb0f7a-9e08-40dc-b4a5-739b894e7d34")
+		(property "Reference" "J13"
+			(at 157.48 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 157.48 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 163.83 174.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 163.83 274.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 163.83 474.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 163.83 574.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 163.83 674.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 163.83 774.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 163.83 874.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "51b0e603-9afb-4e88-a434-55be51c4cd18")
+		)
+		(pin "7"
+			(uuid "b219bf23-b810-4d12-ae6b-19235eaba16a")
+		)
+		(pin "6"
+			(uuid "81d19410-33af-46be-afaa-f617c2cf5708")
+		)
+		(pin "5"
+			(uuid "96f5418a-8ee9-4ec7-a967-ffec7c6a968e")
+		)
+		(pin "4"
+			(uuid "4f771461-cf7a-4d6d-b54f-4ae9e0a8d5a3")
+		)
+		(pin "3"
+			(uuid "af61e9c7-b187-42e6-bc45-f41e4aa1b465")
+		)
+		(pin "2"
+			(uuid "a6008bd3-2e07-41d8-8459-3858bff0d7f0")
+		)
+		(pin "1"
+			(uuid "ed406c84-d3ac-4578-a4ce-0c98f39dbc9d")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 215.9 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9643d7e5-45d2-4731-990a-2261c227bb6a")
+		(property "Reference" "J18"
+			(at 226.06 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 226.06 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 232.41 122.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 232.41 222.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 232.41 422.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 232.41 522.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 232.41 622.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 232.41 722.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 232.41 822.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "e8c61723-48f3-4ba2-965c-1f47912ff033")
+		)
+		(pin "7"
+			(uuid "2bb63d4b-309e-4d66-bf4c-46f596707878")
+		)
+		(pin "6"
+			(uuid "00436419-3f79-43a3-9524-8ba076f47161")
+		)
+		(pin "5"
+			(uuid "75a95546-fb07-4d84-8bd2-11b12bf830d5")
+		)
+		(pin "4"
+			(uuid "79a9009a-8b83-4445-baf4-f4905be51cdc")
+		)
+		(pin "3"
+			(uuid "10402358-9867-4916-a298-3c64865491ea")
+		)
+		(pin "2"
+			(uuid "8f323cb3-c875-4db8-83a8-9f1d4ef40251")
+		)
+		(pin "1"
+			(uuid "2c7a5ce0-4e75-413c-ad08-dfb698306cad")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 157.48 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "999140d9-1d88-4fc1-852d-acdec98852d6")
+		(property "Reference" "J15"
+			(at 160.02 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 160.02 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "53250e4f-307a-4276-8e9b-7dfee248f5e6")
+		)
+		(pin "4"
+			(uuid "413c05b9-9526-4c26-9cc4-719bf5dcb02e")
+		)
+		(pin "1"
+			(uuid "68a61577-545a-44bc-876d-e329e433d484")
+		)
+		(pin "2"
+			(uuid "92c80138-2962-42ad-a0ba-4d1984e3a10a")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 229.87 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b22a6da-5e53-43ca-860e-00d741b67070")
+		(property "Reference" "J23"
+			(at 232.41 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 232.41 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e80105be-1c4a-4861-870b-47dab26f0b04")
+		)
+		(pin "4"
+			(uuid "126ce143-d8ae-4b56-a637-94747a13c2e9")
+		)
+		(pin "1"
+			(uuid "a7b03f91-7154-4290-aff1-4fe51379ead3")
+		)
+		(pin "2"
+			(uuid "404180fb-46b7-4ca9-a7d5-b80d9aa7d9d5")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 215.9 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e64baba-7a02-4a95-a1a1-6f546dc9990f")
+		(property "Reference" "J19"
+			(at 226.06 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 226.06 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 232.41 174.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 232.41 274.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 215.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 232.41 474.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 232.41 574.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 232.41 674.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 232.41 774.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 232.41 874.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "63421916-da26-4216-aaed-36cf34544a21")
+		)
+		(pin "7"
+			(uuid "993fb28d-81c1-428b-b19f-a97acec571b7")
+		)
+		(pin "6"
+			(uuid "3ffc51b7-4ffa-4709-8f60-23bc04829ce8")
+		)
+		(pin "5"
+			(uuid "917ca187-a569-4300-bcef-aea56a803467")
+		)
+		(pin "4"
+			(uuid "122c05d2-d8dc-4751-a377-3ec8b8375131")
+		)
+		(pin "3"
+			(uuid "2ba0148e-592a-4711-ba44-ecaa5978e87f")
+		)
+		(pin "2"
+			(uuid "e0e43bfd-e0d2-4daa-9cc4-8375cac69f08")
+		)
+		(pin "1"
+			(uuid "54a4f8ca-99f8-450a-8deb-2ede8a40395f")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 147.32 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b73aa5e3-790c-40db-a499-b90bfc6fa77b")
+		(property "Reference" "J12"
+			(at 157.48 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 157.48 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 163.83 120.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 163.83 220.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 163.83 420.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 163.83 520.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 163.83 620.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 163.83 720.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 163.83 820.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "178072dc-7f3b-4b36-ab56-40c579faa65f")
+		)
+		(pin "7"
+			(uuid "479049cd-37a0-48dd-bef9-b9b0f96ec02e")
+		)
+		(pin "6"
+			(uuid "cd545b9e-7b7f-42fa-829e-321b546aa997")
+		)
+		(pin "5"
+			(uuid "31803154-c608-4b0f-9bbe-37bb935afc6c")
+		)
+		(pin "4"
+			(uuid "f0063ab9-526f-48ac-8073-a7bfcf73a0d9")
+		)
+		(pin "3"
+			(uuid "023677ef-85d8-437f-a257-220e8dbccb48")
+		)
+		(pin "2"
+			(uuid "a9321494-3088-48ac-892c-9aa7de1eb3c0")
+		)
+		(pin "1"
+			(uuid "531a9e4e-b78d-4baa-a9bc-a4fed5c0366e")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 229.87 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef8094c-a68c-40e8-919b-2612adb11177")
+		(property "Reference" "J20"
+			(at 232.41 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 232.41 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "16f6e85c-a4a8-4219-ab5b-80310b1b5cc1")
+		)
+		(pin "4"
+			(uuid "731b204c-0eb1-4dba-8ddf-94195fc76779")
+		)
+		(pin "1"
+			(uuid "fe9e5b9d-71c7-44e9-b525-350f8247bd22")
+		)
+		(pin "2"
+			(uuid "55223d67-16b7-46d0-8a52-515ba01fd68e")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3-794618-8:3-794618-8")
+		(at 59.69 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff1e64c-d9b4-4507-bce0-f6751994c4b0")
+		(property "Reference" "J6"
+			(at 69.85 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3-794618-8"
+			(at 69.85 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petty:37946188"
+			(at 76.2 121.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=micro-mate-n-lok-connector-qrg&DocType=Data%20Sheet&DocLang=English&PartCntxt=3-794618-8&DocFormat=pdf"
+			(at 76.2 221.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Configuration Features: Number of Positions 8 | Number of Rows 2 | Number of Power Positions 8 | PCB Mount Orientation Right Angle | Contact Features: Contact Mating Area Plating Material Thickness 100  300 MICIN | Contact Retention Within Housing Without | Contact Type Pin | Multiple Contact Types Without | Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2.54 MICM | Contact Current Rating (Max) 5 AMP | PCB Contact Termination Area Plating Material Tin |"
+			(at 59.69 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.67"
+			(at 76.2 421.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-3-794618-8"
+			(at 76.2 521.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"
+			(at 76.2 621.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 76.2 721.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3-794618-8"
+			(at 76.2 821.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "c06b71a3-18e5-4c3f-8ab0-1f95079d3813")
+		)
+		(pin "7"
+			(uuid "49b936c7-0a3f-4d41-a765-d8caa0f9efae")
+		)
+		(pin "6"
+			(uuid "66b8da23-80d8-47a3-ab07-df068752a3f4")
+		)
+		(pin "5"
+			(uuid "0cef59af-493c-4a60-a360-50ad07eb5488")
+		)
+		(pin "4"
+			(uuid "0253000c-f85d-4b7a-b448-0b3590c66c32")
+		)
+		(pin "3"
+			(uuid "d3a3f79f-b701-46fa-93a6-452daf2c322f")
+		)
+		(pin "2"
+			(uuid "04f312f1-fbaf-444c-a2e3-53835d15c085")
+		)
+		(pin "1"
+			(uuid "c49fc9ec-dfe6-44ee-8414-c6bfd3b0f38e")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
