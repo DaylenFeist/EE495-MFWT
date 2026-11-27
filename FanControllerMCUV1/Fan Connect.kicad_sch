@@ -3766,7 +3766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d9bfbc3-40fd-43ca-9d14-970c6b420458")
-		(property "Reference" "J21"
+		(property "Reference" "J19"
 			(at 147.7758 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3836,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J21")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbd36ec-ca3e-4d53-b619-57444beb3026")
-		(property "Reference" "J15"
+		(property "Reference" "J13"
 			(at 68.58 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J15")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -3942,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35da6bd5-b3a7-4a5c-8471-b7316f264afb")
-		(property "Reference" "J13"
+		(property "Reference" "J11"
 			(at 68.58 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +4012,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc7d663-6412-49e3-8ded-67b9a41fda4c")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 69.85 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,7 +4172,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4190,7 +4190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cdb9900-9c60-42c1-9c44-ff96944c27c9")
-		(property "Reference" "J19"
+		(property "Reference" "J17"
 			(at 147.32 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,7 +4260,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J19")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b881ce-9b92-4085-97f0-85eff4dd121f")
-		(property "Reference" "J14"
+		(property "Reference" "J12"
 			(at 68.58 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +4348,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J14")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522a1777-b238-4d37-8434-78f7c19718fa")
-		(property "Reference" "J18"
+		(property "Reference" "J16"
 			(at 147.32 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4436,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J18")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f5bb4c-a08f-45a7-862d-a8a65cc314ad")
-		(property "Reference" "J26"
+		(property "Reference" "J24"
 			(at 224.79 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4524,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J26")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc5b3af-8ec2-4d45-aa9d-c315afe15bde")
-		(property "Reference" "J24"
+		(property "Reference" "J22"
 			(at 224.5805 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4612,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J24")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f484fe3-8e6f-4f83-89f8-0ace9970d314")
-		(property "Reference" "J12"
+		(property "Reference" "J10"
 			(at 68.58 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4700,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J12")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4718,7 +4718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ccb0f7a-9e08-40dc-b4a5-739b894e7d34")
-		(property "Reference" "J17"
+		(property "Reference" "J15"
 			(at 148.59 75.3773 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4860,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J17")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4878,7 +4878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9643d7e5-45d2-4731-990a-2261c227bb6a")
-		(property "Reference" "J22"
+		(property "Reference" "J20"
 			(at 225.4553 19.4973 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5020,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J22")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "999140d9-1d88-4fc1-852d-acdec98852d6")
-		(property "Reference" "J20"
+		(property "Reference" "J18"
 			(at 147.7758 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5108,7 +5108,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J20")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b22a6da-5e53-43ca-860e-00d741b67070")
-		(property "Reference" "J27"
+		(property "Reference" "J25"
 			(at 224.79 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5196,7 +5196,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J27")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -5214,7 +5214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e64baba-7a02-4a95-a1a1-6f546dc9990f")
-		(property "Reference" "J23"
+		(property "Reference" "J21"
 			(at 226.06 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,7 +5356,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J23")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -5374,7 +5374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73aa5e3-790c-40db-a499-b90bfc6fa77b")
-		(property "Reference" "J16"
+		(property "Reference" "J14"
 			(at 148.59 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5516,7 +5516,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J16")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef8094c-a68c-40e8-919b-2612adb11177")
-		(property "Reference" "J25"
+		(property "Reference" "J23"
 			(at 224.79 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5604,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J25")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff1e64c-d9b4-4507-bce0-f6751994c4b0")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 69.85 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5764,7 +5764,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/98e21e09-16b9-405b-b194-f232080c7a2a"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)

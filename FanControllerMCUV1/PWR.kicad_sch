@@ -658,184 +658,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -976,7 +798,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NCP114ASN330T1G:NCP114ASN330T1G"
+		(symbol "NCP1117ST33T3G:NCP1117ST33T3G"
 			(pin_names
 				(offset 0.254)
 			)
@@ -986,7 +808,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 20.32 10.16 0)
+				(at 33.02 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -995,8 +817,8 @@
 					)
 				)
 			)
-			(property "Value" "NCP114ASN330T1G"
-				(at 20.32 7.62 0)
+			(property "Value" "NCP1117ST33T3G"
+				(at 33.02 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1005,7 +827,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TSOP-5_ONS"
+			(property "Footprint" "SOT223-3_ONS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1017,7 +839,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "NCP114ASN330T1G"
+			(property "Datasheet" "NCP1117ST33T3G"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1050,7 +872,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NCP114ASN330T1G"
+			(property "ki_keywords" "NCP1117ST33T3G"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1061,7 +883,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TSOP-5_ONS TSOP-5_ONS-M TSOP-5_ONS-L"
+			(property "ki_fp_filters" "SOT223-3_ONS SOT223-3_ONS-M SOT223-3_ONS-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1072,10 +894,10 @@
 					)
 				)
 			)
-			(symbol "NCP114ASN330T1G_0_1"
+			(symbol "NCP1117ST33T3G_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
+						(xy 7.62 5.08) (xy 7.62 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -1087,7 +909,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
+						(xy 7.62 -7.62) (xy 58.42 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -1099,7 +921,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
+						(xy 58.42 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -1111,7 +933,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
+						(xy 58.42 -7.62) (xy 58.42 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -1121,10 +943,10 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 0 0 0)
 					(length 7.62)
-					(name "IN"
+					(name "ADJUST/GROUND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1139,10 +961,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -2.54 0)
+				(pin output line
+					(at 66.04 -2.54 180)
 					(length 7.62)
-					(name "GND"
+					(name "OUTPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1157,10 +979,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
+				(pin input line
+					(at 66.04 0 180)
 					(length 7.62)
-					(name "EN"
+					(name "INPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1168,42 +990,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1746,244 +1532,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPP00031:TPP00031-ES1R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPP00031-ES1R"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TPP00031:TP00031"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPP00031-ES1R_0_1"
-				(rectangle
-					(start -10.16 -3.81)
-					(end 10.16 -20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TPP00031-ES1R_1_1"
-				(pin input line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -13.97 0)
-					(length 2.54)
-					(name "UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -17.78 0)
-					(length 2.54)
-					(name "RON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -13.97 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2614,12 +2162,6 @@
 		(uuid "00171353-4303-4966-9365-c0b2916faddc")
 	)
 	(junction
-		(at 96.52 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "006050ed-9d34-442e-94b3-517ed29e80ff")
-	)
-	(junction
 		(at 129.54 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2636,24 +2178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07e7054e-19c4-4270-aece-31d2f64e17bd")
-	)
-	(junction
-		(at 104.14 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "090ba42d-3110-4365-b993-e63ce8660177")
-	)
-	(junction
-		(at 146.05 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "093c4700-196c-4a05-bbce-b8d666b24cd2")
-	)
-	(junction
-		(at 44.45 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a545ec8-123d-4757-9714-f49a1e157f5c")
 	)
 	(junction
 		(at 137.16 63.5)
@@ -2678,12 +2202,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22519687-91a8-4d68-b90a-4a1eba497054")
-	)
-	(junction
-		(at 22.86 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26319197-59b4-4a6f-94df-71828bf3a9da")
 	)
 	(junction
 		(at 163.83 57.15)
@@ -2716,12 +2234,6 @@
 		(uuid "3be3c3b7-acde-474d-b01c-3e9f58f2c457")
 	)
 	(junction
-		(at 44.45 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cffba8a-984f-4eb3-a439-3606c95842fe")
-	)
-	(junction
 		(at 255.27 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2732,12 +2244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff05f0f-af7b-4a90-b08a-a8a338a57936")
-	)
-	(junction
-		(at 38.1 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "557c0578-014f-47c6-b2a3-9476b27a4428")
 	)
 	(junction
 		(at 163.83 69.85)
@@ -2752,22 +2258,16 @@
 		(uuid "5c13338b-efe3-4382-87a1-40ead3dfb13c")
 	)
 	(junction
-		(at 99.06 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64b32435-0140-4e6e-8061-de1024c765d7")
-	)
-	(junction
-		(at 92.71 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ed4ea43-9573-4129-bb42-51657dcb7ac7")
-	)
-	(junction
 		(at 163.83 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e037c6-0d36-46f7-b329-2acd5c2fecc8")
+	)
+	(junction
+		(at 114.3 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8f526e-92a7-4c0d-b0be-a5979020323e")
 	)
 	(junction
 		(at 114.3 63.5)
@@ -2800,28 +2300,10 @@
 		(uuid "a736d930-bafb-42c1-8f0b-09ab34a2f3db")
 	)
 	(junction
-		(at 87.63 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adf9f70f-6bb7-4b24-ac7d-4c9b2f7bb1cb")
-	)
-	(junction
 		(at 255.27 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0a5220d-84b2-4a5a-b034-20410c84a363")
-	)
-	(junction
-		(at 116.84 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b16705c8-d589-4778-ac97-d27c4d2d1595")
-	)
-	(junction
-		(at 92.71 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b25a55dd-4cde-40c5-aee3-cdd703663439")
 	)
 	(junction
 		(at 121.92 101.6)
@@ -2830,28 +2312,16 @@
 		(uuid "c9233d02-5252-47e6-90e1-a6ced7699917")
 	)
 	(junction
-		(at 38.1 119.38)
+		(at 114.3 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf3bc8f5-3f9b-4734-9243-558e1ac34b3e")
-	)
-	(junction
-		(at 116.84 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4b73ecf-2cbc-4906-ab25-a78bc5d7c56f")
+		(uuid "d59633c2-c5de-494e-9439-7a0615759c23")
 	)
 	(junction
 		(at 255.27 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da4e806c-7902-4d13-b881-bced21463322")
-	)
-	(junction
-		(at 125.73 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db3805f0-8df4-494c-87fb-1bf1991a6123")
 	)
 	(junction
 		(at 104.14 74.93)
@@ -2866,22 +2336,10 @@
 		(uuid "e67cc9e3-7264-4dd4-8ffb-3c81b27c1cb4")
 	)
 	(junction
-		(at 104.14 138.43)
+		(at 110.49 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea7fc443-1dc4-4785-b4f7-c3209fa47ae1")
-	)
-	(junction
-		(at 116.84 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed51e5b1-4612-4a70-b961-16b29e74c031")
-	)
-	(junction
-		(at 36.83 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7235cb5-7d51-4e55-90c6-4d61219163d7")
+		(uuid "e6a9aa35-1e31-4e7f-8b91-59c92b2ccc66")
 	)
 	(junction
 		(at 129.54 74.93)
@@ -2917,36 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 189.23) (xy 96.52 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01ba4cd1-3f9d-4c2a-ba28-7a7adcae7579")
-	)
-	(wire
-		(pts
-			(xy 44.45 130.81) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e9a9b0-e4e4-4512-81cb-5792236e635b")
-	)
-	(wire
-		(pts
-			(xy 36.83 165.1) (xy 36.83 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02471ef5-170c-42e6-84c3-66c0eaf01a24")
-	)
-	(wire
-		(pts
 			(xy 163.83 50.8) (xy 185.42 50.8)
 		)
 		(stroke
@@ -2977,16 +2405,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 130.81) (xy 116.84 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092984ba-6762-4833-b6df-5bf2c89983b9")
-	)
-	(wire
-		(pts
 			(xy 163.83 57.15) (xy 163.83 63.5)
 		)
 		(stroke
@@ -2997,16 +2415,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 179.07) (xy 99.06 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f32fae6-612d-4bae-9037-75c1403dd908")
-	)
-	(wire
-		(pts
 			(xy 163.83 31.75) (xy 185.42 31.75)
 		)
 		(stroke
@@ -3014,16 +2422,6 @@
 			(type default)
 		)
 		(uuid "0fb36a6c-1756-4076-b7bc-b8d5ea6080b3")
-	)
-	(wire
-		(pts
-			(xy 44.45 134.62) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1103a1d4-ae00-4e41-b188-7e853fe48f6d")
 	)
 	(wire
 		(pts
@@ -3067,16 +2465,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 116.84 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24eb27c9-2c7d-41fd-ae1d-d9d7d12747da")
-	)
-	(wire
-		(pts
 			(xy 238.76 19.05) (xy 243.84 19.05)
 		)
 		(stroke
@@ -3094,6 +2482,16 @@
 			(type default)
 		)
 		(uuid "26490828-7f78-4902-b2ef-1d25ed2f21f0")
+	)
+	(wire
+		(pts
+			(xy 125.73 152.4) (xy 125.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26df33a1-c497-45fc-a6af-37154030794c")
 	)
 	(wire
 		(pts
@@ -3117,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 119.38) (xy 38.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f46d4f-2691-401f-94ce-f07783d0300b")
-	)
-	(wire
-		(pts
 			(xy 210.82 69.85) (xy 193.04 69.85)
 		)
 		(stroke
@@ -3144,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "2e48c877-1e9a-430a-b1dd-118ecbd48927")
-	)
-	(wire
-		(pts
-			(xy 50.8 127) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e565ef8-1fb9-4436-97a2-fec377ed86eb")
 	)
 	(wire
 		(pts
@@ -3207,16 +2585,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 144.78) (xy 22.86 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a593076-9f21-4f57-8723-16f603b3e3eb")
-	)
-	(wire
-		(pts
 			(xy 251.46 82.55) (xy 255.27 82.55)
 		)
 		(stroke
@@ -3237,46 +2605,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 119.38) (xy 44.45 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bf5a2c-7118-493a-84ab-387859f935ed")
-	)
-	(wire
-		(pts
-			(xy 92.71 123.19) (xy 87.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c68d7f-ae18-4e4b-91e3-2abf783a8eee")
-	)
-	(wire
-		(pts
-			(xy 99.06 179.07) (xy 101.6 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46ff392d-f236-425e-a8c7-a85d2834eeea")
-	)
-	(wire
-		(pts
-			(xy 104.14 138.43) (xy 116.84 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "499d2c26-c0e6-4011-8186-748aa1ec3bff")
-	)
-	(wire
-		(pts
 			(xy 43.18 68.58) (xy 50.8 68.58)
 		)
 		(stroke
@@ -3287,16 +2615,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 186.69) (xy 96.52 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7981cd-5844-4cce-b95f-9a9c9004e16e")
-	)
-	(wire
-		(pts
 			(xy 163.83 44.45) (xy 163.83 50.8)
 		)
 		(stroke
@@ -3304,16 +2622,6 @@
 			(type default)
 		)
 		(uuid "4a877084-0d2f-4335-926b-bd0143b385b1")
-	)
-	(wire
-		(pts
-			(xy 44.45 130.81) (xy 50.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4459de-939f-4a4b-b6fa-5416bee1da9e")
 	)
 	(wire
 		(pts
@@ -3337,16 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 184.15) (xy 99.06 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d96f9a3-1830-44b9-b4ed-40d4d59d7194")
-	)
-	(wire
-		(pts
 			(xy 193.04 88.9) (xy 210.82 88.9)
 		)
 		(stroke
@@ -3354,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "4dc24edf-06a9-4620-b979-185b53245a28")
+	)
+	(wire
+		(pts
+			(xy 110.49 139.7) (xy 110.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50690b24-85d4-4c7b-a4c7-ac9a2509553b")
 	)
 	(wire
 		(pts
@@ -3417,26 +2725,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 119.38) (xy 38.1 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfc6be3-6260-4b05-84d1-18ef1cbe056f")
-	)
-	(wire
-		(pts
-			(xy 93.98 123.19) (xy 92.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c62b08e-095d-4092-855b-800fe0c44ad7")
-	)
-	(wire
-		(pts
 			(xy 114.3 74.93) (xy 114.3 78.74)
 		)
 		(stroke
@@ -3447,26 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 144.78) (xy 22.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616fc6b4-f1e3-41e8-bfc8-3ffd66aa8619")
-	)
-	(wire
-		(pts
-			(xy 22.86 130.81) (xy 44.45 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6221be34-c9a0-4a89-9750-5bef57a79b27")
-	)
-	(wire
-		(pts
 			(xy 193.04 38.1) (xy 210.82 38.1)
 		)
 		(stroke
@@ -3474,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "6290cfd9-a4ac-4840-81bb-5ebfc7d49deb")
-	)
-	(wire
-		(pts
-			(xy 29.21 119.38) (xy 29.21 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649365c9-112e-4b43-9ccc-8ca2ac967f58")
 	)
 	(wire
 		(pts
@@ -3517,16 +2775,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 181.61) (xy 101.6 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b83700-4cf7-4d89-978f-614230ddc3e7")
-	)
-	(wire
-		(pts
 			(xy 193.04 76.2) (xy 210.82 76.2)
 		)
 		(stroke
@@ -3534,16 +2782,6 @@
 			(type default)
 		)
 		(uuid "6bf4d58e-35d0-42b8-814e-788a9333c9e2")
-	)
-	(wire
-		(pts
-			(xy 92.71 186.69) (xy 96.52 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c41f786-0c63-4d65-a83d-29af197657ee")
 	)
 	(wire
 		(pts
@@ -3597,16 +2835,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 130.81) (xy 106.68 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e7dfc2-fdc3-417a-b993-d14ae965d3d7")
-	)
-	(wire
-		(pts
 			(xy 163.83 63.5) (xy 185.42 63.5)
 		)
 		(stroke
@@ -3627,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 130.81) (xy 22.86 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b69b6f2-b484-4bdd-b253-6312a333b500")
-	)
-	(wire
-		(pts
 			(xy 143.51 101.6) (xy 121.92 101.6)
 		)
 		(stroke
@@ -3644,6 +2862,16 @@
 			(type default)
 		)
 		(uuid "7f39d7cd-1bca-4c71-96e6-4f482786d43a")
+	)
+	(wire
+		(pts
+			(xy 125.73 139.7) (xy 125.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b0ab5c-bb5e-47d3-b178-88732cb4bbc2")
 	)
 	(wire
 		(pts
@@ -3727,13 +2955,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 76.2 123.19)
+			(xy 110.49 139.7) (xy 125.73 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97d60b63-46db-4f2c-a548-894b548e18cd")
+		(uuid "99adc6c8-54c1-44be-ac71-9501ce2ab3c5")
 	)
 	(wire
 		(pts
@@ -3767,16 +2995,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 134.62) (xy 76.2 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da21dff-4414-4969-995c-33124db31ed6")
-	)
-	(wire
-		(pts
 			(xy 143.51 74.93) (xy 129.54 74.93)
 		)
 		(stroke
@@ -3794,16 +3012,6 @@
 			(type default)
 		)
 		(uuid "a56922b7-782b-4764-b12a-8e38e3fa357a")
-	)
-	(wire
-		(pts
-			(xy 101.6 130.81) (xy 104.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70af703-56c3-46cb-90d5-70a1d92fa91e")
 	)
 	(wire
 		(pts
@@ -3827,16 +3035,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 101.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7ce4c5-9105-4d4e-ae2c-098950924204")
-	)
-	(wire
-		(pts
 			(xy 29.21 186.69) (xy 36.83 186.69)
 		)
 		(stroke
@@ -3844,16 +3042,6 @@
 			(type default)
 		)
 		(uuid "af7bf272-c3e7-4f3a-82a9-bdfcf949c0f7")
-	)
-	(wire
-		(pts
-			(xy 104.14 138.43) (xy 76.2 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10f7ae5-c1c7-4e8d-b3df-9dc532ffe17c")
 	)
 	(wire
 		(pts
@@ -3894,16 +3082,6 @@
 			(type default)
 		)
 		(uuid "b9ad2aca-8dee-40b6-b08d-55a7521654a5")
-	)
-	(wire
-		(pts
-			(xy 125.73 123.19) (xy 116.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba18aec8-f9c0-4f2c-aecd-f884fd0d6286")
 	)
 	(wire
 		(pts
@@ -3957,16 +3135,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 184.15) (xy 99.06 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c07add9b-7683-4782-9373-e0b55e9ef0e0")
-	)
-	(wire
-		(pts
 			(xy 143.51 93.98) (xy 143.51 74.93)
 		)
 		(stroke
@@ -3997,16 +3165,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 176.53) (xy 92.71 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1cd6878-1845-4368-a4cf-90eaba6c51ce")
-	)
-	(wire
-		(pts
 			(xy 243.84 44.45) (xy 238.76 44.45)
 		)
 		(stroke
@@ -4024,26 +3182,6 @@
 			(type default)
 		)
 		(uuid "c6469fc8-4ff8-4350-b907-24486517e8d9")
-	)
-	(wire
-		(pts
-			(xy 44.45 119.38) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c97839-4f6d-4124-8917-90aae21a31f0")
-	)
-	(wire
-		(pts
-			(xy 76.2 123.19) (xy 87.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f21630-57f9-46a2-b63c-17f830c6b523")
 	)
 	(wire
 		(pts
@@ -4067,6 +3205,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 147.32) (xy 114.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9340614-9684-4b5d-801a-03d866f78db3")
+	)
+	(wire
+		(pts
 			(xy 251.46 69.85) (xy 255.27 69.85)
 		)
 		(stroke
@@ -4077,6 +3225,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 156.21) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe52a43-7351-4b25-918e-18afd681d0af")
+	)
+	(wire
+		(pts
 			(xy 255.27 25.4) (xy 255.27 31.75)
 		)
 		(stroke
@@ -4084,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "cd9217fc-038f-4371-8389-f94c9c3c30ad")
-	)
-	(wire
-		(pts
-			(xy 50.8 144.78) (xy 50.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda1e4fd-4d9b-4724-9801-44d9b79043b3")
 	)
 	(wire
 		(pts
@@ -4114,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "d093dfd5-e7f6-41f0-a9b7-5795dcbdf490")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dcb38b-ec31-4c6e-80cb-36362456e3bc")
 	)
 	(wire
 		(pts
@@ -4147,16 +3305,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 179.07) (xy 146.05 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44d5473-af84-4a92-9c8c-17cacc34f3e4")
-	)
-	(wire
-		(pts
 			(xy 50.8 68.58) (xy 50.8 71.12)
 		)
 		(stroke
@@ -4164,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "d4e15d9e-b881-4e6a-b73c-9bf6ddb7a1da")
-	)
-	(wire
-		(pts
-			(xy 125.73 120.65) (xy 125.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d572e069-9920-427a-892b-5a948104e865")
 	)
 	(wire
 		(pts
@@ -4197,16 +3335,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 92.71 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d9c351-5412-45b0-a37c-de7200ae2044")
-	)
-	(wire
-		(pts
 			(xy 57.15 184.15) (xy 44.45 184.15)
 		)
 		(stroke
@@ -4214,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "d976b8ff-803e-4ab9-b874-36994a0dc057")
+	)
+	(wire
+		(pts
+			(xy 114.3 154.94) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bc42a8-0aa8-4b49-9ddf-a37ef8667ca4")
 	)
 	(wire
 		(pts
@@ -4257,36 +3395,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 181.61) (xy 146.05 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4fbe9b5-bd69-49f9-90ec-a6076565615c")
-	)
-	(wire
-		(pts
-			(xy 83.82 130.81) (xy 87.63 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ac2306-ddeb-44ce-a03f-f096fdfb7863")
-	)
-	(wire
-		(pts
-			(xy 93.98 130.81) (xy 92.71 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92e2664-fd58-4c1e-9b2a-e53120034a6d")
-	)
-	(wire
-		(pts
 			(xy 255.27 50.8) (xy 255.27 57.15)
 		)
 		(stroke
@@ -4304,16 +3412,6 @@
 			(type default)
 		)
 		(uuid "eb3f75f7-5dc8-41f3-9308-6e18e523187a")
-	)
-	(wire
-		(pts
-			(xy 38.1 119.38) (xy 44.45 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb99d78-3d79-4c87-b933-e23dd293c02d")
 	)
 	(wire
 		(pts
@@ -4344,16 +3442,6 @@
 			(type default)
 		)
 		(uuid "f17bd37b-eb46-4339-b319-f0cddf4390c2")
-	)
-	(wire
-		(pts
-			(xy 83.82 139.7) (xy 83.82 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f319f461-5262-4bea-b2dd-9aa90d5a9504")
 	)
 	(wire
 		(pts
@@ -12013,30 +11101,6 @@
 			)
 		)
 	)
-	(global_label "5V_Switched"
-		(shape input)
-		(at 125.73 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63b832c1-f28f-4136-a9b4-e92938739c5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1334 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "fan11_48V"
 		(shape input)
 		(at 210.82 82.55 0)
@@ -12229,30 +11293,6 @@
 			)
 		)
 	)
-	(global_label "5V_Switched"
-		(shape input)
-		(at 36.83 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b128d0e4-5c2d-44c4-860c-d4318ecdc854")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.2334 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "fan1_48V"
 		(shape input)
 		(at 210.82 19.05 0)
@@ -12422,86 +11462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 97.79 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03e47335-743f-40d6-876b-3581aabbd670")
-		(property "Reference" "L1"
-			(at 97.79 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68u"
-			(at 97.79 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 97.79 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 97.79 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1998985e-1122-4bc9-8e33-ddb9b5518a7d")
-		)
-		(pin "2"
-			(uuid "097d4dc8-190f-44a4-9882-4ca79efed48f")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 83.82 97.79 0)
 		(unit 1)
@@ -12512,7 +11472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "068aadab-8319-4115-9834-70a458ca110f")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 75.184 96.7739 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +11536,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12662,83 +11622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 83.82 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "153774fa-8f27-4112-b974-0ba64fb09a09")
-		(property "Reference" "#PWR08"
-			(at 83.82 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b0f6832-fb27-49bd-a02d-b4aa553bec13")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+48V")
 		(at 50.8 63.5 0)
 		(unit 1)
@@ -12750,7 +11633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "182d780d-027d-4639-835f-231ccb99a931")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 50.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12810,7 +11693,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12827,7 +11710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d9ac89f-8852-4596-a10f-4430a5401db3")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 247.65 17.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12889,7 +11772,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12906,7 +11789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e72df53-ae69-48a2-83e0-56b7915d6449")
-		(property "Reference" "F8"
+		(property "Reference" "F7"
 			(at 189.23 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12968,7 +11851,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F8")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -12985,7 +11868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20c8b481-aa33-405d-b597-709ec9b95b9e")
-		(property "Reference" "F3"
+		(property "Reference" "F2"
 			(at 189.23 17.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13047,262 +11930,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23c316d5-65cd-4710-b6fa-471c94fc49c5")
-		(property "Reference" "#PWR011"
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "219ed13f-3b54-45ec-b77c-e1835e2c497e")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a35826c-1595-44d7-a526-3830866f8cf8")
-		(property "Reference" "#PWR013"
-			(at 125.73 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8e70603-e144-407e-b2db-aff806a93075")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TPP00031:TPP00031-ES1R")
-		(at 63.5 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c2c406d-8a38-411e-a258-4f64ae07e2db")
-		(property "Reference" "U1"
-			(at 63.5 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPP00031-ES1R"
-			(at 63.5 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPP00031:TP00031"
-			(at 63.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "75f4f321-39ff-40d7-97c0-62bde7ec3503")
-		)
-		(pin "4"
-			(uuid "0cc8ab0f-2209-471d-a2f9-5e67f4f8a328")
-		)
-		(pin "7"
-			(uuid "35dbb5da-7196-420c-8000-5b173a9bc5c0")
-		)
-		(pin "6"
-			(uuid "6177704c-2af0-47a9-8ae8-37f9885c7711")
-		)
-		(pin "2"
-			(uuid "7ae9ee77-5dad-4b94-85f1-c07e969464c5")
-		)
-		(pin "5"
-			(uuid "7c6a3eed-ae09-46e2-a6b7-022fc43dd14c")
-		)
-		(pin "8"
-			(uuid "240a8b97-9686-4cfb-be6a-dd77ba4a04d2")
-		)
-		(pin "1"
-			(uuid "de85acf1-4434-4ca9-a11a-0404b338faf0")
-		)
-		(pin "3"
-			(uuid "bbff9e97-8ce4-4b2e-83ac-bb9ac614265b")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "U1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -13319,7 +11947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2df603fa-873b-446e-94c3-69b980ddfefd")
-		(property "Reference" "F5"
+		(property "Reference" "F4"
 			(at 189.23 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +12009,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F5")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -13399,7 +12027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5d4f69-94d7-4c25-b615-ef370d2e2f82")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13459,86 +12087,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ef5a06b-374e-4d6f-8f52-3bd4ae83c566")
-		(property "Reference" "R1"
-			(at 46.99 146.812 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56k"
-			(at 46.99 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 46.99 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6aa9684d-095b-4583-a65a-cdcb3eae49c9")
-		)
-		(pin "1"
-			(uuid "29245139-cae5-495b-a15b-99ba2679c645")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R1")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13555,7 +12104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31a4995a-500a-4b9a-884b-ec06c21b53cf")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 106.68 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13619,7 +12168,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13636,7 +12185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3513040a-376d-4c49-bcd0-0b44624d6be0")
-		(property "Reference" "F11"
+		(property "Reference" "F10"
 			(at 189.23 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13698,7 +12247,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F11")
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -13706,7 +12255,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 185.42 0)
+		(at 125.73 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13714,10 +12263,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3db989ed-1dba-4684-af20-6b606165eb28")
-		(property "Reference" "C12"
-			(at 149.86 184.1499 0)
+		(uuid "35f7996a-e378-4d2c-9ccb-2de965c49732")
+		(property "Reference" "C4"
+			(at 129.286 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13727,8 +12275,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 149.86 186.6899 0)
+		(property "Value" "10u"
+			(at 128.016 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13739,7 +12287,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.0152 189.23 0)
+			(at 126.6952 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +12298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 185.42 0)
+			(at 125.73 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13761,7 +12309,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 185.42 0)
+			(at 125.73 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,96 +12320,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d3687564-6f3d-440a-95e4-6fe900e01b3d")
+			(uuid "e6af6682-1d35-4bb8-99f9-e7f7bf3ad8e4")
 		)
 		(pin "1"
-			(uuid "ccacb926-3e98-446e-b676-d8e52ad14666")
+			(uuid "bb01837c-665c-4b3e-9431-878c520be5c8")
 		)
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 104.14 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4139e466-d75c-4e04-bba5-f77adc8ce53a")
-		(property "Reference" "C8"
-			(at 106.68 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30p"
-			(at 106.68 136.398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 105.1052 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ae25724-34f9-458b-b854-37c422385141")
-		)
-		(pin "1"
-			(uuid "a7b6c947-97d2-40b4-92c4-dbd32eb10206")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13878,7 +12345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42ab927d-c229-4adf-8532-b740fb6a9a00")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13938,7 +12405,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13955,7 +12422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42b78d08-424b-4d37-a1bd-f7a8675605ff")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 247.65 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +12484,85 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R12")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44faf12e-446c-4039-b008-ffcb4b992004")
+		(property "Reference" "#PWR07"
+			(at 110.49 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "578cb392-fc75-47cb-9dc5-b0c9e5e0343c")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14034,7 +12579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4659ede2-f66c-4499-872c-35a805e05e2e")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 247.65 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,88 +12641,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a7ab4c8-5de0-4646-b3e0-d05f5b1ce828")
-		(property "Reference" "C4"
-			(at 86.36 142.748 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 86.36 145.288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 84.7852 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "66823fe8-0ca1-4e47-9237-c1ddc2509233")
-		)
-		(pin "1"
-			(uuid "ae07633f-0769-43ed-a8bf-d0df982683e9")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C4")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14194,7 +12658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c8339e2-ab8d-488a-91a3-b275e7f29c76")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 247.65 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14256,86 +12720,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d2f8329-31ed-4d32-97a4-b874fbb235e9")
-		(property "Reference" "R5"
-			(at 118.872 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 116.84 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.062 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a14328d2-70f3-4468-82e1-3bb4d48da49c")
-		)
-		(pin "1"
-			(uuid "d5620007-25e1-4972-a06a-d0239ef89a12")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14352,7 +12737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55f79769-dd4a-4ce4-8f5f-923d1b8a07e1")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 247.65 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14414,7 +12799,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14548,7 +12933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "616ccb3e-cbf8-4799-b074-06a344060c7f")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 247.65 23.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14610,7 +12995,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14628,7 +13013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ff0ca0-3481-4d7e-91af-36a36dbb2234")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 147.32 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14692,88 +13077,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 92.71 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64858cc6-2f26-4d92-9ff6-95cda456246b")
-		(property "Reference" "C6"
-			(at 85.09 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 86.614 183.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 93.6752 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0dade7e9-a8ef-429f-a39f-92036fd8a9fb")
-		)
-		(pin "1"
-			(uuid "bb2f9720-a9e1-45d9-82fb-be180b67d596")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14790,7 +13094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6527d5ee-d237-43d0-8ef6-0ae2d3ea580e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 50.8 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14850,7 +13154,84 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR05")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6652376e-f933-43a8-8d0f-d4c517577f3e")
+		(property "Reference" "#PWR02"
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fb49172-9763-483a-90d1-7a89386653cb")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14867,7 +13248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f7a0e9-ba6c-44cb-b03a-ef3b27187bb9")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 119.38 37.4649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14929,15 +13310,15 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 127 0)
+		(lib_id "power:+3V3")
+		(at 114.3 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14945,31 +13326,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6f797d36-9cef-49bc-b8e1-dc5fc0e6e260")
-		(property "Reference" "C1"
-			(at 36.068 124.714 0)
+		(fields_autoplaced yes)
+		(uuid "6ee23b22-e9c7-48d8-8481-057f4c5ba65a")
+		(property "Reference" "#PWR08"
+			(at 114.3 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 36.576 129.032 0)
+		(property "Value" "+3V3"
+			(at 114.3 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 39.0652 130.81 0)
+		(property "Footprint" ""
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14980,7 +13361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 127 0)
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14990,8 +13371,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 127 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15000,17 +13381,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "f3aaaa9b-40f6-4eac-801a-22832589123d")
 		)
 		(pin "1"
-			(uuid "0069b080-01f3-4d30-8833-161a51fa8376")
+			(uuid "d6133f42-f23e-4510-a77a-0f6fb87b52e3")
 		)
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15027,7 +13405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "713c3d31-a0ff-4891-863d-42bebd755f6f")
-		(property "Reference" "F4"
+		(property "Reference" "F3"
 			(at 189.23 23.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15089,7 +13467,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F4")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -15106,7 +13484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75c33553-afd6-4205-8bc5-14fb09fe6b04")
-		(property "Reference" "F12"
+		(property "Reference" "F11"
 			(at 189.23 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15168,163 +13546,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8187e950-e97a-4f73-9b3f-abf2d6943181")
-		(property "Reference" "#PWR010"
-			(at 96.52 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b410b8f9-e364-4e7a-b46b-7ba645a4f6c8")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 146.05 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a41fb3-d3c8-4674-8245-6098782c3c8c")
-		(property "Reference" "#PWR014"
-			(at 146.05 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 146.05 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57cef3cc-ca20-4607-847d-fed9e5039d44")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR014")
+					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -15341,7 +13563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88f15e36-9b95-4943-ba35-1b222e801fbc")
-		(property "Reference" "F14"
+		(property "Reference" "F13"
 			(at 188.976 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15403,7 +13625,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F14")
+					(reference "F13")
 					(unit 1)
 				)
 			)
@@ -15420,7 +13642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bccac6c-3a45-47fd-9145-7b6cbb797fb0")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 247.65 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15482,88 +13704,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d3fc26f-08db-43da-b23c-6d2f2ceff8d7")
-		(property "Reference" "C2"
-			(at 42.672 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 42.926 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 45.4152 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5a368b12-1f62-42d1-a634-4d5a09e4ed23")
-		)
-		(pin "1"
-			(uuid "7d96788f-69be-40da-958c-e974ccfe2da2")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15601,7 +13742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 24.13 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -15660,7 +13801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94da9394-edfb-4457-8627-c87c15e11b36")
-		(property "Reference" "F10"
+		(property "Reference" "F9"
 			(at 189.23 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15722,7 +13863,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F10")
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -15740,7 +13881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973d350a-6ab9-458a-aaea-6aba217c2faa")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 127 37.4649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15802,7 +13943,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15820,7 +13961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d003e2-76db-4edd-9e6f-c43dd78c2306")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 36.83 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15880,84 +14021,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9854b41d-dc8c-4797-bee3-96247698aa07")
-		(property "Reference" "#PWR02"
-			(at 29.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97cd8068-2306-4146-addf-3d1a4c9b1c7c")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15974,7 +14038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c14046b-1e4e-4b47-9c0a-d347cc149651")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 255.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16034,7 +14098,92 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR016")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NCP1117ST33T3G:NCP1117ST33T3G")
+		(at 44.45 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ec4e0d-4211-4b88-9f4e-bc9681461428")
+		(property "Reference" "U1"
+			(at 77.47 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NCP1117ST33T3G"
+			(at 77.47 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT223-3_ONS"
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "NCP1117ST33T3G"
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8632a783-9b7f-4e8d-861e-3ad56d6f0f1c")
+		)
+		(pin "1"
+			(uuid "6e6648ec-b0a9-478b-8f6d-4449bfe66dfc")
+		)
+		(pin "2"
+			(uuid "afc6f4b6-02c2-4f7e-8277-b8bbc161f417")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -16051,7 +14200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2cb983d-0ae4-4440-bb40-9bc5bf5504d2")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 247.65 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16113,244 +14262,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a383f603-71dc-42fc-b86d-c0b2de22c054")
-		(property "Reference" "C10"
-			(at 119.888 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 122.428 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 124.7648 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "72513197-31f0-4a2a-a034-4e19572680cb")
-		)
-		(pin "1"
-			(uuid "84fbe0a0-b251-4843-9e74-ab88be6f9cc7")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abf0fc8e-735f-450b-a9e7-39c589b27d99")
-		(property "Reference" "C9"
-			(at 110.236 124.968 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 110.236 127.508 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 114.3 129.8448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5c224f4-d44c-4b20-976a-433184b00b75")
-		)
-		(pin "1"
-			(uuid "a4fa245b-46b5-40a0-9ad8-2d0cc55eb2ff")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b66343d9-980d-4ba4-be25-de41b2565b01")
-		(property "Reference" "R2"
-			(at 80.01 132.842 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30"
-			(at 80.01 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.01 129.032 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5fa19f2-4e1f-4040-a181-b0b41aafd7bf")
-		)
-		(pin "1"
-			(uuid "ba752f3a-ce90-4528-a137-9d7f7b0553dc")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16367,7 +14279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b91cbd2b-63e6-41ac-a0d8-39bbe5fbb56a")
-		(property "Reference" "F9"
+		(property "Reference" "F8"
 			(at 189.23 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16429,7 +14341,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F9")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -16446,7 +14358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c390ba49-26ef-4298-a6ac-f885eb6f32dd")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 247.65 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16508,84 +14420,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5a0fc5e-f7b8-462a-815e-5261e1a28686")
-		(property "Reference" "#PWR015"
-			(at 146.05 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbd736f0-66df-40db-9928-b4b64de52dda")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR015")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16603,7 +14438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb9b0430-2436-4813-982a-45d06fd54f10")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 133.35 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16679,7 +14514,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16766,163 +14601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0e76ff4-1140-44b7-9e2e-05fec31620c2")
-		(property "Reference" "R3"
-			(at 97.79 132.842 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30k"
-			(at 97.79 131.064 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 129.032 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b1c0fc15-6b3c-4d34-a227-a7cd4fa21d64")
-		)
-		(pin "1"
-			(uuid "6fc061dc-9446-4271-be09-a572d376ccfe")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 17.78 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d20ae11c-5673-42d7-9f27-a46fdffb9dd1")
-		(property "Reference" "#PWR01"
-			(at 17.78 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+48V"
-			(at 17.78 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 17.78 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81c4eacb-ea7a-40a2-8529-8568ebfe2a52")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 57.15 181.61 0)
 		(unit 1)
@@ -16934,7 +14612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2177d4d-84f8-45e4-a59b-ee62da89c45e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 57.15 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -16994,85 +14672,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 92.71 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d75d0e00-fdb1-454d-afec-526ce1c4a9f1")
-		(property "Reference" "#PWR09"
-			(at 92.71 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 92.71 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "605bd281-15b5-4fc7-885c-9696408eec31")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17089,7 +14689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c8cc11-f505-4038-97dc-5ac95cc7b2ed")
-		(property "Reference" "F7"
+		(property "Reference" "F6"
 			(at 189.484 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +14751,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F7")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -17168,7 +14768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da13a8cb-ec3f-4fbf-97b7-3195d4bc26d8")
-		(property "Reference" "F6"
+		(property "Reference" "F5"
 			(at 189.23 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,7 +14830,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F6")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -17247,7 +14847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd0cadc3-305f-4100-bd53-d698f921fa43")
-		(property "Reference" "F13"
+		(property "Reference" "F12"
 			(at 189.23 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17309,86 +14909,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "F13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dee26395-516b-46ce-a5fc-0f8b0a7dcbc3")
-		(property "Reference" "R4"
-			(at 118.872 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30.9k"
-			(at 116.84 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.062 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "847a8d59-3e89-4ce4-ac95-74b78427fe72")
-		)
-		(pin "1"
-			(uuid "36af0f07-13af-435a-8fbd-e1cbc4ea8c7a")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R4")
+					(reference "F12")
 					(unit 1)
 				)
 			)
@@ -17405,7 +14926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df547e4f-c997-4db5-9d17-4a6575c56683")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 247.65 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17467,7 +14988,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17484,7 +15005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df97b844-025a-4703-9c84-b5133b16c6e5")
-		(property "Reference" "R14"
+		(property "Reference" "R9"
 			(at 247.65 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17546,179 +15067,7 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0883e04-a61e-4940-96ce-859a8e078db0")
-		(property "Reference" "C5"
-			(at 82.804 125.222 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47n"
-			(at 82.804 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 88.5952 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7bbffd77-f8f7-4ff0-9e37-5e7d0b2e5899")
-		)
-		(pin "1"
-			(uuid "4c7867f5-f325-4019-b517-3bc17530377f")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP114ASN330T1G:NCP114ASN330T1G")
-		(at 101.6 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c59bfe-d376-45f4-93bd-fb8d50625701")
-		(property "Reference" "U2"
-			(at 121.92 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NCP114ASN330T1G"
-			(at 121.92 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TSOP-5_ONS"
-			(at 101.6 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "NCP114ASN330T1G"
-			(at 101.6 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d3a7dce-727d-4656-aaa1-cefe2502a238")
-		)
-		(pin "2"
-			(uuid "0e850965-5baf-41b1-927f-e73a8ca1f713")
-		)
-		(pin "3"
-			(uuid "0eb949ec-801d-46a8-92ba-40f01372eab3")
-		)
-		(pin "4"
-			(uuid "0783d038-9c84-4b27-9cf3-429033602543")
-		)
-		(pin "5"
-			(uuid "0618577c-3c7f-44ea-b83b-453b6d309e50")
-		)
-		(instances
-			(project "FanControllerMCUV1"
-				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "U2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -17735,7 +15084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaf51be1-4b49-443e-a20d-e11f1cd24746")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 247.65 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17797,7 +15146,166 @@
 		(instances
 			(project "FanControllerMCUV1"
 				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
-					(reference "R16")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35e1756-eecd-48f5-80f8-f73bc551cc7f")
+		(property "Reference" "C3"
+			(at 118.11 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 118.11 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 115.2652 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9dcd515-3c10-4ded-a7b3-b4e1e90ad6e4")
+		)
+		(pin "1"
+			(uuid "9c3761ae-18e5-403b-b724-76a5b7390dac")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa578268-d6e7-4bf8-b5b7-c4c583b8d71f")
+		(property "Reference" "#PWR09"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e93b47cf-2f7c-4395-80ae-b73fa5c24a57")
+		)
+		(instances
+			(project "FanControllerMCUV1"
+				(path "/53af5e8b-04f3-48cf-aed2-4eeef279621b/e096ede8-83b5-44ca-8d47-ea61135c2af7"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

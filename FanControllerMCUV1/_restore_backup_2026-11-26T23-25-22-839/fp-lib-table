@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TPP00031") (type "KiCad") (uri "/home/daylen/Projects/EE495-MFWT/Custom_Libraries/petty/TPP00031.pretty") (options "") (descr ""))
+)
